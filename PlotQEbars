@@ -1,0 +1,14 @@
+clf
+ax1=subplot(211)
+bar(QEstrong(:,1),QEstrong(:,2),'g')
+hold on
+bar(QEstrong(:,1),QEstrong(:,4),'r')
+xlim([0 32])
+title('false and true QE means for strong tracks')
+
+ax2=subplot(212)
+bar(QEweak(:,1),QEweak(:,2),'g')
+hold on
+bar(QEweak(:,1),QEweak(:,4),'r')
+xlim([0 32])
+title('false and true QE means for weak tracks')
